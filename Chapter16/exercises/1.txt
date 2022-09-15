@@ -1,0 +1,3 @@
+these declarations are entirely legal on an individual basis.
+both declarations can appear as shown. Although tags aren't used,
+structures x, and y, legally create two objects in each structure.

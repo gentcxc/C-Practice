@@ -1,0 +1,17 @@
+int (*f(float (*)(long), char *))(double);
+f is a function w two parameters, its parameters are one function 
+with a pointer to a long int parameter that will return a float,
+, and a char pointer.
+
+the f function returns a pointer to a function with one double parameter 
+and and integer will be returned.
+
+
+
+//this might be a pointer to a function
+
+f is a function with two parameters:
+one parameter is a function with one parameter, a pointer to a long integer,
+that returns a float value. The other parameter is a char pointer.
+The f function will return a pointer to a function with one double value
+as its parameter, this function will finally return an integer value.

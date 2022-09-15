@@ -1,0 +1,4 @@
+all of the ifdef and #ifs test other macros.
+look at number 12. c and e will fail their tests, as m is defined.
+this means it does not matter what the value of m is, just the fact
+that the macro exists in the first place is good enough.

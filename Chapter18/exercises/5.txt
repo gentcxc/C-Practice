@@ -1,0 +1,6 @@
+a)false: externals may have static values but can be used elsewhere.
+b)false:: if a variable is given the storage class extern inside of a function
+then it will either have internal linkage, if declared as static earlier,
+or external linkage in all other cirucmstances.
+c) false
+d)true

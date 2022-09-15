@@ -1,0 +1,6 @@
+never called before: 0
+10
+20
+30
+40
+answer after 5 time: 50

@@ -1,0 +1,2 @@
+The answer is e, arrays, enumeration variables, structure variables, and 
+union variables can all be initialized.

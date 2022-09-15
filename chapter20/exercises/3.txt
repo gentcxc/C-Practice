@@ -1,0 +1,18 @@
+x = 8 / 1000
+y = 10 /1010
+
+x^=y  | x now equals 2
+
+x=0010
+y=1010
+
+y^=x | y = 8 now.
+
+x=0010
+y=1000
+
+x^=y  | x = 10 now.
+
+
+they swap values.
+this macro causes them to swap values.

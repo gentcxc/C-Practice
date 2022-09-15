@@ -1,0 +1,10 @@
+54
+34
+14 c   
+false
+true
+2. the statement is illegal because pointers cannot be added,you
+cannot add two pointers together.
+3.it counts in reverse by incrementing and decrementing pointers q and p.
+
+5. a is illegal, b,c,d are all true.

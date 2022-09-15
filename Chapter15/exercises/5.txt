@@ -1,0 +1,12 @@
+main.c: f1.h,
+f2.c: f1.h f2.h 
+f2.c: f1.h f2.h
+
+correction :
+
+although this is mostly correct, the first line will always refer to it as object
+
+example 
+
+main.o: main.c f1.h 
+    gcc -c main.c

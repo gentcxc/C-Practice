@@ -1,0 +1,14 @@
+extern float a;
+
+void f(register double b)
+{
+    static int c;
+    auto char d;
+}
+List of traits for:extern float a: static, file, external,
+List of traits for: void f() auto, file, internal,
+List of traits for: register double b: automatic, block, none 
+List of traits for: static int c: static, block, internal
+List of traits for: auto char d: auto, block , internal
+last two might be none
+edit: they are both none

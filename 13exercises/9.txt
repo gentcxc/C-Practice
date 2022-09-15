@@ -1,0 +1,15 @@
+You stare at this problem and may wonder the way that it acts.
+s1="computer
+s2="science"
+if (strcmp(s1,s2) < 0)  <----This is true, And I will explain why. 
+                        Tutorialspoint.com explains simply if the return
+                        value is < 0, the second string compared is greater,
+                         and if the value > 0 str1 is greater. Here, the
+                         letter being compared is c versus s, s has a greater
+                         number value in ASCII, leading to string 2
+                         being greater after this compaison.
+s1[strlen(s1)-6] = '\0';  <---- This sets the value 6 points to the right
+                            of the end of the line end of what is now
+                            "computerscience", and inserts the end of
+                            string character '\0', this leaves 
+                            "computers" as the final result.

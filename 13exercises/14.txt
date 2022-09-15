@@ -1,0 +1,2 @@
+this prints Grinch, this is because --p decrements each letter of the array
+and when u decrement each ASCII value it ends up being grinch.

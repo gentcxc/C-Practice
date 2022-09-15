@@ -1,0 +1,5 @@
+void capitalize(char *lowercase)
+{
+    while (lowercase != 0)
+        toupper lowercase
+}

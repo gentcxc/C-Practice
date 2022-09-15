@@ -1,0 +1,19 @@
+internal, pointer to a pointer
+2)
+Storage class: volitile(also known kind of as auto i think), basically, NONE
+type qualifier: 
+type specifier: unsigned long integer
+declarator: io_flags
+initializers: none
+3)
+Storage class: external
+type qualifier: none
+type specifier: char *[]
+declarator: file_name, path;
+initializer: 
+d)
+storage class: static
+type qualifier: constant
+type specifier: char []
+declarator: token_but
+initializer: ""

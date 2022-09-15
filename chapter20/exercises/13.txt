@@ -1,0 +1,2 @@
+The statment removes the rightmost 1 bit from n each time this statement is 
+called, incrementally bring n to its informal, and most unlucky demise.

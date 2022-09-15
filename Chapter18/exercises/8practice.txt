@@ -1,0 +1,12 @@
+x is an array of 10 pointers that point to a function with one integer
+parameter, that returns a char .
+
+b) x is a function with one integer parameter that returns a pointer to an
+array of 5 integers.
+
+c) (x is a function with no parameter, that returns a pointer to a function 
+with one integer parameter, that returns a pointer to a float.
+
+d) x is a function with one integer parameter, and one function pointer, the 
+function has one integer parameter, and returns nothing (IE VOID). x will 
+return a pointer to a function with one integer parameter that returns nothing.

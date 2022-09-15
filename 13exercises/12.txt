@@ -1,0 +1,9 @@
+void get_extension(const char *file_name, char *extension)
+{
+    *p = *extension;
+    int i, l = 3;
+    for (i=3; i < 3; i++, p++, l--)
+        strcpy(p, *file_name[strlen(file_name)-l] )
+
+}
+this doesnt work rn, i wnana fix it later but it doesnt work rn

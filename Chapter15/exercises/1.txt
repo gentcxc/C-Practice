@@ -1,0 +1,6 @@
+A) advantages include portability, and future tweaking / debugging.
+It will be easier for programmers to understand the programs and what they
+do in the future if it is split up into different files and headers.
+b)disadvantages include keeping track of all of the files. You have to debug 
+and rebuild the files as you change them and it can be difficult to 
+keep track of it all. 

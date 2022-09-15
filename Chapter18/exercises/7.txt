@@ -1,0 +1,3 @@
+a is false, pretty sure if i recall correctly using a const variable in a switch
+statement is like the one thing you arent supposed to do with it.
+CORRECT! constant variables cannot be used in constant expressions

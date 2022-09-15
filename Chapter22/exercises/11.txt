@@ -1,0 +1,11 @@
+My answer: I belive the program will indeed run, in fact, I think the program 
+will run identically. That being said, the former version of the program
+including parentheses ensures easier understanding, and more clearly
+expresses what the program is supposed to do.
+
+Incorrect:
+Fordea states that since the ch =  has second precedence in comparison
+the value will be compared with EOF first, and while this expression
+is correct. It will provide ch with the result of the equality operation,
+instead of the character, so the program does work partly, but fills
+ch with values that simply don't fulfill the program's intentions.

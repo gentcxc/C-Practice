@@ -1,0 +1,9 @@
+function prototypes are fine in headers, as they will declare themsleves,
+and therefore they wont need to be declared or deicphered in the parent program.
+b) definitions are bad,
+Fordea's answer on github: IF a function is defined within a header file,
+then any source file that includes the header file will need to compilerthat 
+function. This will cause the function to be compiled multiple times 
+instead of once if it was listed in a source file. Compiling the same 
+function multiple times will cause an error at the linking stage,
+because a linker only expects each function to be defined once.

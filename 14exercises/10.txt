@@ -1,0 +1,2 @@
+Recursive functions and functions with arguments which have side effects have
+different behavior as a macro making a function more suitable.

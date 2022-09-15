@@ -1,0 +1,27 @@
+a)an array of 10 pointers to functions with an integer parameter and a char
+return type.
+b)williams answer:x is a function which takes an int argument and returns
+a pointer to an array of five integers.
+c)x is a function with no arguments which returns a pointer to a function
+which has an int argument and returns a pointer to a float.
+d)x is a function with two arguments, an int and a pointer to a function 
+with an int argument which returns nothing. x returns a pointer to a 
+function with an int argument and no return value.
+
+x is a function with one integer parameter, that returns a pointer to an 
+array of 5 integers
+
+c)x is a function with no arguments, returns a pointer to a function with one
+integer argument, tha returns a pointer to a float.
+
+d) x is a function with one int value, one void function that cals for a 
+integer parameter, it returns a pointer to a function with one integer 
+parameter with returns nothing.
+THIS IS CORRECT I AM GOATED
+
+try 3 c)x is a function with no arguments that returns a pointer to a function 
+with one integer parameter that returns a pointer to a float
+
+try 3 d)x is a function with one integer argument, and a function pointer
+with one integer parameter with a return type of void. This function returns 
+a pointer to a function with one integer parameter that has no return type.

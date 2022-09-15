@@ -1,0 +1,24 @@
+According to fordeea, after we free the memory allocated to p,
+by calling = p->next. p becomes a dangling pointer, leading to undefined behavior.
+
+there are two ways to fix this. one is using a temp pointer.
+struct node *temp;
+while (p!= NULL 
+{
+    temp = p;
+    p = p->next;
+    free(temp);
+}
+
+the other way is to use a next node pointer, giving it to the value 
+p->next. We can then free the memeory pointed to by p, and afterwards 
+assign p the next_node pointer so that it points to the next node;
+
+struct node *next_node;
+
+while (p != NULL)
+{
+    next_node = p->next;
+    free(p)
+    p = next_node;
+}

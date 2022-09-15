@@ -1,0 +1,4 @@
+a legal
+b illegal, might be legal but is bad practice
+c legal
+d legal

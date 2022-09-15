@@ -1,0 +1,9 @@
+unsigned short swap_bytes(unsigned short i)
+{
+    unsigned short b0_in_b1_place = i << 8;
+    unsigned short b1_inb0_place = i>> 8;
+
+    return b0_in_b1_place | b1_in_b0_place;
+}
+
+-Fordea

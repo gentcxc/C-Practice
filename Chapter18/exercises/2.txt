@@ -1,0 +1,7 @@
+A) extern 
+b)static
+c)register or auto, 
+// c explanation: WRONG!
+the correct answer is static and extern 
+static: when delcared in a block it provides static storage duration 
+extern: when delcare din a block it provides static storage duration

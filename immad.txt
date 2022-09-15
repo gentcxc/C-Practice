@@ -1,0 +1,25 @@
+  if(letter =='D' || 'G')
+        {
+            sum += 2;
+        }
+        if(letter == 'B' || 'C' || 'M'|| 'P')
+        {
+            sum += 3;
+        }
+        if(letter == 'F' || 'H' || 'V' || 'W' || 'Y')
+        {
+            sum += 4;
+        }
+        if(letter == 'K')
+        {
+            sum += 5;
+        }
+        if(letter == 'J' || 'X')
+        {
+            sum+= 8;
+        }
+        if(getchar() == 'Q' || 'Z')
+        {
+            sum += 10;
+        }
+pg 158

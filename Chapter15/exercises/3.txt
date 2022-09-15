@@ -1,0 +1,14 @@
+I wasn't too sure of the answer for this one, so i looked at fordea's answer
+(suprise) and actively recalled it to make sure I understood it.
+
+Both will work, the difference is that it will search the current directory 
+for that particular header file before searching the directory in which the s
+system header files are.
+
+For example: #include "stdbool.h" will include your working directory
+version of stdbool.h 
+
+however, writing:
+
+#include <stdbool.h> will include the version in the system header files 
+directory.

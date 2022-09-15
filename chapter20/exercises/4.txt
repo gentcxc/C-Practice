@@ -1,0 +1,7 @@
+define MK_COLOR(r,g,b) ((long) (r) << 16 | (g) << 8 | (b))
+define GET_RED(color) ((color) << 16 & 0xff)
+define GET_GREEN(color) ((color) << 8 && 0xff)
+define GET_BLUE(color) ((color) & 0xff)
+What these macros do is identify the color 
+and test the binary 1's against a string of 1's to determine the intensity
+of the color, more 1's equals more intensity obviously.

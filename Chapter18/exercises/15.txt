@@ -1,0 +1,6 @@
+it is linkage, if a variable is declared as extern there is no value assigned
+to it.
+WRONG!
+FORDEA: The answer is a, a variable with a static storage duration will have
+a default zero value, corresponding to the type of the varibale:
+int will be 0, float 0.0, and pointers will be NULL

@@ -1,0 +1,7 @@
+void capitalize(char *p)
+{
+    while (p != '/0')
+    {
+        toupper(p++)
+    }
+}

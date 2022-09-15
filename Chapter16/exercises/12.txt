@@ -1,0 +1,17 @@
+union {
+    double a;
+    struct{
+        char b[4];
+        double c;
+        int d;
+    }e;
+    char f[4];
+}u;
+
+char = 1 bytes int = 4 double = 8
+The union will be 8 bytes before the structure, and 24 bytes after
+WRONG!
+
+/**Correct answer 
+16 bytes, the structure is the largest thing in the union, therefore the union
+will be 16 bytes large.

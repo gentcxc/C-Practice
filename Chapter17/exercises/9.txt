@@ -1,0 +1,11 @@
+no, because &x implies that you are sotring something inside of a instead 
+of simply calling it
+or 
+yes, using the arrow to navigate a structure is the same as simply using periods
+
+
+william herman's answer: True. When expanded, 
+the right arrow operator (->), expands to the
+ dereference operator and the dot operator (* and .); so,
+  (&x)->a expands to *(&x).a. 
+The dereference and address-of operators cancel to produce x.a.
